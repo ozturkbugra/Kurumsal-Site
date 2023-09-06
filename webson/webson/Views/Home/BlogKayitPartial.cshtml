@@ -1,0 +1,15 @@
+﻿@model IEnumerable<webson.Models.Blog>
+
+@foreach (var item in Model)
+{
+    <li>
+        <img src="@item.ResimURL" class="pull-left" alt="@item.Baslik" />
+        <h6><a href="/Home/BlogDetay/@item.BlogId">@item.Baslik</a></h6>
+        <p>
+            @Html.Raw(item.Icerik.Substring(0,15)) <a href="/Home/BlogDetay/@item.BlogId" class="btn btn-outline-info">Devamını oku</a>
+        </p>
+        
+    </li>
+}
+
+

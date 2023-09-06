@@ -1,0 +1,104 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>@ViewBag.Title - Kurumsal Web Sitesi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="@Html.Raw(ViewBag.Kimlik.Description)" />
+    <meta name="keywords"  content="@ViewBag.Kimlik.Keywords"/>
+    <!-- css -->
+    <link href="~/Content/SiteLayout/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/SiteLayout/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+    <link href="~/Content/SiteLayout/css/jcarousel.css" rel="stylesheet" />
+    <link href="~/Content/SiteLayout/css/flexslider.css" rel="stylesheet" />
+    <link href="~/Content/SiteLayout/css/style.css" rel="stylesheet" />
+    <link href="~/Content/AdminLayout/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/Content/AdminLayout/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <!-- Theme skin -->
+    <link href="~/Content/SiteLayout/skins/default.css" rel="stylesheet" />
+
+
+    <!-- =======================================================
+    Theme Name: Moderna
+    Theme URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+    ======================================================= -->
+    <style>
+        .image-container {
+            width: 100%;
+            height: 0;
+            padding-bottom: 75%;
+            position: relative;
+        }
+
+            .image-container img {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <!-- start header -->
+        <header>
+            <div class="navbar navbar-default navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        
+                        <a class="navbar-brand" href="/Home"> <img src="@ViewBag.Kimlik.LogoURL" width="75" height="75" /> <span>K</span>urumsal Web SİTE</a>
+                    </div>
+                    <div class="navbar-collapse collapse ">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/Home">Ana Sayfa</a></li>
+                            @*<li class="dropdown">
+                                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Hakkımızda <b class=" icon-angle-down"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/Home/Hakkımızda/">Hakkımızda</a></li>
+                                        <li><a href="Home/Hizmetlerimiz/">Hizmetlerimiz</a></li>
+                                        <li><a href="pricingbox.html"></a></li>
+                                    </ul>
+                                </li>*@
+                            <li><a href="/Home/Hakkimizda">Hakkımızda</a></li>
+                            <li><a href="/Home/Hizmetlerimiz">HİZMETLERİMİZ</a></li>
+                            <li><a href="/Home/Blog">Blog</a></li>
+                            <li><a href="/Home/Iletisim">İLETİŞİM</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+        @RenderBody()
+        
+        @{ 
+            Html.RenderAction("FooterPartial", "Home");
+        }
+    </div>
+
+    <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+    <!-- javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="~/Content/SiteLayout/js/jquery.js"></script>
+    <script src="~/Content/SiteLayout/js/jquery.easing.1.3.js"></script>
+    <script src="~/Content/SiteLayout/js/bootstrap.min.js"></script>
+    <script src="~/Content/SiteLayout/js/jquery.fancybox.pack.js"></script>
+    <script src="~/Content/SiteLayout/js/jquery.fancybox-media.js"></script>
+    <script src="~/Content/SiteLayout/js/google-code-prettify/prettify.js"></script>
+    <script src="~/Content/SiteLayout/js/portfolio/jquery.quicksand.js"></script>
+    <script src="~/Content/SiteLayout/js/portfolio/setting.js"></script>
+    <script src="~/Content/SiteLayout/js/jquery.flexslider.js"></script>
+    <script src="~/Content/SiteLayout/js/animate.js"></script>
+    <script src="~/Content/SiteLayout/js/custom.js"></script>
+</body>
+</html>

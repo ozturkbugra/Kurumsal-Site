@@ -1,0 +1,21 @@
+﻿@model webson.Models.Hakkimizda
+@{
+    ViewBag.Title = "Hakkımızda";
+    Layout = "~/Views/Shared/_SiteLayout.cshtml";
+}
+
+<div class="container">
+    <div class="col-md-12 text-center">
+        <h4>Hakkımızda</h4>
+        <div align="center"><img src="/Content/SiteLayout/img/dummies/dummy-1.jpg" class="img-responsive" alt="" /></div>
+        
+     </div>
+    <div class="col-md-12 text-center">
+        <br />
+        <p>
+            @Html.Raw(Model.Aciklama)
+        </p>
+    </div>
+</div>
+
+

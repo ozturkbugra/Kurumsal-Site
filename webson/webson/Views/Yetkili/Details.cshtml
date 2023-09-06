@@ -1,0 +1,53 @@
+﻿@model webson.Models.Admin
+
+@{
+    ViewBag.Title = "Profil Bilgileri";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Profil Bilgileri</h2>
+
+<div>
+  
+    <dl class="dl-horizontal">
+        <dt>
+            Resim <br />
+        </dt>
+
+        <dd>
+            <img src="@Model.ResimURL" width="200" height="200" />
+        </dd>
+
+        <dt>
+            E-Posta <br />
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Eposta)
+        </dd>
+
+        <dt>
+            Şifre <br />
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sifre)
+        </dd>
+
+        <dt>
+            Yetki <br />
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Yetki)
+        </dd>
+
+
+
+    </dl>
+</div>
+<p>
+    <br />
+    @Html.ActionLink("Düzenle", "Edit", new { id = Model.AdminId }) |
+    @Html.ActionLink("Geri Dön", "Index")
+</p>

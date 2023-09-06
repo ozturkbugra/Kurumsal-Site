@@ -1,0 +1,181 @@
+C:\Users\BUGRA\Desktop\webson\webson\obj\Debug\webson.csproj.AssemblyReference.cache
+F:\webson\webson\bin\webson.dll.config
+F:\webson\webson\bin\webson.dll
+F:\webson\webson\bin\webson.pdb
+F:\webson\webson\bin\roslyn\csc.exe
+F:\webson\webson\bin\roslyn\csc.exe.config
+F:\webson\webson\bin\roslyn\csc.rsp
+F:\webson\webson\bin\roslyn\csi.exe
+F:\webson\webson\bin\roslyn\csi.exe.config
+F:\webson\webson\bin\roslyn\csi.rsp
+F:\webson\webson\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\webson\webson\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\webson\webson\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\webson\webson\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\webson\webson\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\webson\webson\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\webson\webson\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\webson\webson\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\webson\webson\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\webson\webson\bin\roslyn\Microsoft.Managed.Core.targets
+F:\webson\webson\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\webson\webson\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\webson\webson\bin\roslyn\System.AppContext.dll
+F:\webson\webson\bin\roslyn\System.Collections.Immutable.dll
+F:\webson\webson\bin\roslyn\System.Console.dll
+F:\webson\webson\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\webson\webson\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\webson\webson\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\webson\webson\bin\roslyn\System.Globalization.Calendars.dll
+F:\webson\webson\bin\roslyn\System.IO.Compression.dll
+F:\webson\webson\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\webson\webson\bin\roslyn\System.IO.FileSystem.dll
+F:\webson\webson\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\webson\webson\bin\roslyn\System.Net.Http.dll
+F:\webson\webson\bin\roslyn\System.Net.Sockets.dll
+F:\webson\webson\bin\roslyn\System.Reflection.Metadata.dll
+F:\webson\webson\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\webson\webson\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\webson\webson\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\webson\webson\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\webson\webson\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\webson\webson\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\webson\webson\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\webson\webson\bin\roslyn\System.ValueTuple.dll
+F:\webson\webson\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\webson\webson\bin\roslyn\System.Xml.XmlDocument.dll
+F:\webson\webson\bin\roslyn\System.Xml.XPath.dll
+F:\webson\webson\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\webson\webson\bin\roslyn\vbc.exe
+F:\webson\webson\bin\roslyn\vbc.exe.config
+F:\webson\webson\bin\roslyn\vbc.rsp
+F:\webson\webson\bin\roslyn\VBCSCompiler.exe
+F:\webson\webson\bin\roslyn\VBCSCompiler.exe.config
+F:\webson\webson\bin\Antlr3.Runtime.dll
+F:\webson\webson\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\webson\webson\bin\Microsoft.Web.Infrastructure.dll
+F:\webson\webson\bin\Newtonsoft.Json.dll
+F:\webson\webson\bin\System.Web.Helpers.dll
+F:\webson\webson\bin\System.Web.Mvc.dll
+F:\webson\webson\bin\System.Web.Optimization.dll
+F:\webson\webson\bin\System.Web.Razor.dll
+F:\webson\webson\bin\System.Web.WebPages.Deployment.dll
+F:\webson\webson\bin\System.Web.WebPages.dll
+F:\webson\webson\bin\System.Web.WebPages.Razor.dll
+F:\webson\webson\bin\WebGrease.dll
+F:\webson\webson\bin\System.Web.Helpers.xml
+F:\webson\webson\bin\System.Web.Mvc.xml
+F:\webson\webson\bin\System.Web.Optimization.xml
+F:\webson\webson\bin\System.Web.Razor.xml
+F:\webson\webson\bin\System.Web.WebPages.xml
+F:\webson\webson\bin\System.Web.WebPages.Deployment.xml
+F:\webson\webson\bin\System.Web.WebPages.Razor.xml
+F:\webson\webson\bin\Newtonsoft.Json.xml
+F:\webson\webson\bin\Antlr3.Runtime.pdb
+F:\webson\webson\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\webson\webson\bin\tr\System.Web.Helpers.resources.dll
+F:\webson\webson\bin\tr\System.Web.Mvc.resources.dll
+F:\webson\webson\bin\tr\System.Web.Optimization.resources.dll
+F:\webson\webson\bin\tr\System.Web.Razor.resources.dll
+F:\webson\webson\bin\tr\System.Web.WebPages.resources.dll
+F:\webson\webson\bin\tr\System.Web.WebPages.Deployment.resources.dll
+F:\webson\webson\bin\tr\System.Web.WebPages.Razor.resources.dll
+F:\webson\webson\obj\Debug\webson.csproj.AssemblyReference.cache
+F:\webson\webson\obj\Debug\webson.csproj.CoreCompileInputs.cache
+F:\webson\webson\obj\Debug\webson.csproj.CopyComplete
+F:\webson\webson\obj\Debug\webson.dll
+F:\webson\webson\obj\Debug\webson.pdb
+D:\HER ŞEY\webson\webson\bin\webson.dll.config
+D:\HER ŞEY\webson\webson\bin\webson.dll
+D:\HER ŞEY\webson\webson\bin\webson.pdb
+D:\HER ŞEY\webson\webson\bin\roslyn\csc.exe
+D:\HER ŞEY\webson\webson\bin\roslyn\csc.exe.config
+D:\HER ŞEY\webson\webson\bin\roslyn\csc.rsp
+D:\HER ŞEY\webson\webson\bin\roslyn\csi.exe
+D:\HER ŞEY\webson\webson\bin\roslyn\csi.exe.config
+D:\HER ŞEY\webson\webson\bin\roslyn\csi.rsp
+D:\HER ŞEY\webson\webson\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HER ŞEY\webson\webson\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HER ŞEY\webson\webson\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HER ŞEY\webson\webson\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.AppContext.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Collections.Immutable.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Console.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Globalization.Calendars.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.IO.Compression.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.IO.FileSystem.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Net.Http.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Net.Sockets.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Reflection.Metadata.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.ValueTuple.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Xml.XmlDocument.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Xml.XPath.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\HER ŞEY\webson\webson\bin\roslyn\vbc.exe
+D:\HER ŞEY\webson\webson\bin\roslyn\vbc.exe.config
+D:\HER ŞEY\webson\webson\bin\roslyn\vbc.rsp
+D:\HER ŞEY\webson\webson\bin\roslyn\VBCSCompiler.exe
+D:\HER ŞEY\webson\webson\bin\roslyn\VBCSCompiler.exe.config
+D:\HER ŞEY\webson\webson\bin\Antlr3.Runtime.dll
+D:\HER ŞEY\webson\webson\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HER ŞEY\webson\webson\bin\Microsoft.Web.Infrastructure.dll
+D:\HER ŞEY\webson\webson\bin\Newtonsoft.Json.dll
+D:\HER ŞEY\webson\webson\bin\System.Web.Helpers.dll
+D:\HER ŞEY\webson\webson\bin\System.Web.Mvc.dll
+D:\HER ŞEY\webson\webson\bin\System.Web.Optimization.dll
+D:\HER ŞEY\webson\webson\bin\System.Web.Razor.dll
+D:\HER ŞEY\webson\webson\bin\System.Web.WebPages.Deployment.dll
+D:\HER ŞEY\webson\webson\bin\System.Web.WebPages.dll
+D:\HER ŞEY\webson\webson\bin\System.Web.WebPages.Razor.dll
+D:\HER ŞEY\webson\webson\bin\WebGrease.dll
+D:\HER ŞEY\webson\webson\bin\System.Web.Helpers.xml
+D:\HER ŞEY\webson\webson\bin\System.Web.Mvc.xml
+D:\HER ŞEY\webson\webson\bin\System.Web.Optimization.xml
+D:\HER ŞEY\webson\webson\bin\System.Web.Razor.xml
+D:\HER ŞEY\webson\webson\bin\System.Web.WebPages.xml
+D:\HER ŞEY\webson\webson\bin\System.Web.WebPages.Deployment.xml
+D:\HER ŞEY\webson\webson\bin\System.Web.WebPages.Razor.xml
+D:\HER ŞEY\webson\webson\bin\Newtonsoft.Json.xml
+D:\HER ŞEY\webson\webson\bin\Antlr3.Runtime.pdb
+D:\HER ŞEY\webson\webson\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HER ŞEY\webson\webson\bin\tr\System.Web.Helpers.resources.dll
+D:\HER ŞEY\webson\webson\bin\tr\System.Web.Mvc.resources.dll
+D:\HER ŞEY\webson\webson\bin\tr\System.Web.Optimization.resources.dll
+D:\HER ŞEY\webson\webson\bin\tr\System.Web.Razor.resources.dll
+D:\HER ŞEY\webson\webson\bin\tr\System.Web.WebPages.resources.dll
+D:\HER ŞEY\webson\webson\bin\tr\System.Web.WebPages.Deployment.resources.dll
+D:\HER ŞEY\webson\webson\bin\tr\System.Web.WebPages.Razor.resources.dll
+D:\HER ŞEY\webson\webson\obj\Debug\webson.csproj.AssemblyReference.cache
+D:\HER ŞEY\webson\webson\obj\Debug\webson.csproj.CoreCompileInputs.cache
+D:\HER ŞEY\webson\webson\obj\Debug\webson.csproj.CopyComplete
+D:\HER ŞEY\webson\webson\obj\Debug\webson.dll
+D:\HER ŞEY\webson\webson\obj\Debug\webson.pdb
+D:\HER ŞEY\webson\webson\bin\EntityFramework.dll
+D:\HER ŞEY\webson\webson\bin\EntityFramework.SqlServer.dll
+D:\HER ŞEY\webson\webson\bin\EntityFramework.xml
+D:\HER ŞEY\webson\webson\bin\EntityFramework.SqlServer.xml
+D:\HER ŞEY\webson\webson\bin\PagedList.dll
+D:\HER ŞEY\webson\webson\bin\PagedList.Mvc.dll
+D:\HER ŞEY\webson\webson\bin\PagedList.xml
+D:\HER ŞEY\webson\webson\bin\PagedList.Mvc.xml

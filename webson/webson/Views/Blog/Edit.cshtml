@@ -1,0 +1,41 @@
+﻿@model webson.Models.Blog
+@{
+    ViewBag.Title = "Blog Düzenle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Blog Düzenle</h2>
+
+<form class="row g-3" action="/Blog/Edit/@Model.BlogId" method="post" enctype="multipart/form-data">
+    <div class="col-12">
+        <label for="inputNanme4" class="form-label">Başlık</label>
+        <input type="text" class="form-control" id="Baslik" value="@Model.Baslik" name="Baslik" required>
+    </div>
+    <div class="col-12">
+        <label for="inputEmail4" class="form-label">Kategori</label>
+        @Html.DropDownList("KategoriId", null, new { @class = "form-control" })
+    </div>
+    <div class="col-12">
+        <label for="inputEmail4" class="form-label">İçerik</label>
+        <textarea name="icerik" class="ckeditor" required>
+           @Model.Icerik
+        </textarea>
+    </div>
+    <div class="col-12">
+        <label for="inputPassword4" class="form-label">Önceki Resim</label> <br />
+        <img src="@Model.ResimURL" />
+    </div>
+    <div class="col-12">
+        <label for="inputPassword4" class="form-label">Resim</label>
+        <input type="file" class="form-control" id="ResimURL" name="ResimURL" accept=".png,.jpg,.jpeg">
+    </div>
+    <div class="text-center">
+        <button type="submit" class="btn btn-primary">Güncelle</button>
+
+    </div>
+</form>
+<div class="text-center mt-3">
+    <a href="/Blog"> <button class="btn btn-secondary">Geri Dön</button></a>
+</div>
+
+

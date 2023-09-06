@@ -1,0 +1,65 @@
+﻿@model webson.Models.Admin
+
+@{
+    
+    ViewBag.Title = "Yetkili Düzenle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Güncelle</h2>
+
+@using (Html.BeginForm("Edit", "Yetkili", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+ 
+    <div class="form-group">
+        E posta
+        <div class="col-md-10">
+            <input name="Eposta" type="email" class="form-control" value="@Model.Eposta" required />
+        </div>
+    </div>
+
+    <div class="form-group">
+        Şifre
+        <div class="col-md-10">
+            <input name="Sifre" type="password" class="form-control" value="@Model.Sifre" required />
+        </div>
+    </div>
+
+    <div class="form-group">
+        Yetki
+        <div class="col-md-10">
+            <select id="userRole" name="Yetki" class="form-select">
+                <option value="Editor">Editör</option>
+                <option value="Admin">Admin</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        Önceki Resim
+        <div class="col-md-10">
+           <img src="@Model.ResimURL" width="200" height="200" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        Resim
+        <div class="col-md-10">
+            <input name="ResimURL" type="file" accept=".png,.jpg,.jpeg" class="form-control"/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10 mt-3"> @{ if (Session["yetki"].ToString() == "Admin")
+            {<button type="submit" class="btn btn-success">Düzenle</button> } }
+            
+        </div>
+    </div>
+</div>
+        }
+
+<div class="mt-3">
+    @Html.ActionLink("Geri Dön", "Index")
+</div>

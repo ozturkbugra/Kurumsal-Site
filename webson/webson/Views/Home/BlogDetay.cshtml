@@ -1,0 +1,126 @@
+﻿@model webson.Models.Blog
+@{
+    ViewBag.Title = "Blog Detay";
+    Layout = "~/Views/Shared/_SiteLayout.cshtml";
+}
+
+<section id="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+            
+                
+                    <article>
+                        <div class="post-image">
+                            <div class="post-heading">
+                                <h3>@Model.Baslik</h3>
+                            </div>
+                            <div class="bottom-article">
+                                <ul class="meta-post">
+                                    <li><i class="icon-folder-open"></i><a href="#"> @Model.Kategori.KategoriAd </a></li>
+                                    @*<li><i class="icon-comments"></i><a href="#">4 Comments</a></li>*@
+                                </ul>
+                            </div>
+                            <img src="@Model.ResimURL" class="img-responsive" alt="@Model.Baslik" />
+                        </div>
+                        <p>
+                            @Html.Raw(Model.Icerik)
+
+
+                        </p>
+                        
+                    </article>
+
+                    
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <h3>Yorum Yap</h3>
+                                <form>
+                                    <div>
+                                        <input type="text" class="form-control" id="AdSoyad" name="AdSoyad" placeholder="Adınız Soyadınız" required />
+                                        <br />
+                                        <input type="email" class="form-control" id="Eposta" name="Eposta" placeholder="Mail Adresiniz" required />
+                                        <br />
+                                        <textarea typeof="text" class="form-control" id="Icerik" name="Icerik" placeholder="Yorumunuzu giriniz"> </textarea>
+                                        <br />
+                                        <button type="submit" class="btn btn-success" id="Gonder">Gönder</button>
+
+                                    </div>
+                                </form>
+                                
+
+                            </div>
+
+                        </div>
+
+                    
+                    <div class="row">
+                        <div>
+                            <h3> Blog Makale Yorumları </h3>
+                            @foreach (var item in Model.Yorumlars.OrderByDescending(x => x.YorumId).Where(x => x.Onay == true))
+                            {
+                               <p>
+                                   <img src="~/Content/SiteLayout/img/kullanici.png" width="50" height="50" /><b>@item.AdSoyad  - @item.Eposta</b>
+                                   <br />
+                               <h7 style="margin-left:7%">@item.Icerik</h7>
+                               </p>
+                                <hr />
+                                
+                            }
+
+                        </div>
+                    </div>
+            </div>
+            <div class="col-lg-4">
+                <aside class="right-sidebar">
+                    <div class="widget">
+                        <form class="form-search">
+                            <input class="form-control" type="text" placeholder="Search..">
+                        </form>
+                    </div>
+                    <div class="widget">
+                        <h5 class="widgetheading">Kategoriler</h5>
+                        @{
+                            Html.RenderAction("BlogKategoriPartial", "Home");
+                        }
+                    </div>
+                    <div class="widget">
+                        <h5 class="widgetheading">Son Blog Yazıları</h5>
+                        <ul class="recent">
+                            @{
+                                Html.RenderAction("BlogKayitPartial", "Home");
+                            }
+                        </ul>
+                    </div>
+
+                </aside>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="~/Content/SiteLayout/js/jquery.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#Gonder").click(function () {
+
+            var AdSoyad = $("#AdSoyad").val();
+            var Eposta = $("#Eposta").val();
+            var Icerik = $("#Icerik").val();
+            $.ajax({
+
+                url: '/Home/YorumYap/',
+                data: { AdSoyad: AdSoyad, Eposta: Eposta, Icerik: Icerik, BlogId:@Model.BlogId },
+                type: 'POST',
+                dataType: 'json',
+                success: function (data) {
+                    alert("Yorumunuz oluşturuldu. Onaylandıktan sonra gözükecektir.");
+                }
+
+
+            });
+        });
+
+    })
+</script>

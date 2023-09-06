@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "İletişim";
+    Layout = "~/Views/Shared/_SiteLayout.cshtml";
+}
+
+<section id="content">
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12452.34774061924!2d35.3831681!3d38.715813!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152b0558c46c92e1%3A0x33004534a1608945!2sAurora%20Statik!5e0!3m2!1str!2str!4v1692804913634!5m2!1str!2str" width="100%" height="380" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h4>İletişim</h4>
+
+
+                <div id="errormessage"></div>
+                <form action="/Home/Iletisim/" method="post" role="form" class="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="AdSoyad" class="form-control" id="name" placeholder="Adınız ve Soyadınız" data-rule="minlen:4" data-msg="En az 4 karakter giriniz" />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="Email" id="email" placeholder="Mail Adresiniz" data-rule="email" required />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="Konu" id="subject" placeholder="Konu" required />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="Mesaj" rows="5" data-rule="required" required placeholder="Mesajınız"></textarea>
+                        <div class="validation"></div>
+                    </div>
+
+                    <div class="text-center"><button type="submit" class="btn btn-theme">Gönder</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="alert">@ViewBag.uyari</div>
+</section>
+

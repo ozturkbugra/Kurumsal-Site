@@ -1,0 +1,56 @@
+﻿@model IEnumerable<webson.Models.Admin>
+
+@{
+    if (Session["yetki"].ToString() != "Admin")
+    {
+        Response.Redirect("/Admin/Index/");
+    }
+    ViewBag.Title = "Yetkililer";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Yetkili</h2>
+
+<p>
+    <a href="/Yetkili/Create/" class="btn btn-success">Ekle</a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+           E-Posta
+        </th>
+        <th>
+            Şifre
+        </th>
+        <th>
+            Yetki
+        </th>
+        <th>
+            Resim
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Eposta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sifre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Yetki)
+        </td>
+        <td>
+            <img src="@item.ResimURL" width="80" height="80"/>
+        </td>
+        <td>
+            @Html.ActionLink("Düzenle", "Edit", new { id=item.AdminId }) |
+            @Html.ActionLink("Detaylar", "Details", new { id=item.AdminId }) |
+            @Html.ActionLink("Sil", "Delete", new { id=item.AdminId })
+        </td>
+    </tr>
+}
+
+</table>

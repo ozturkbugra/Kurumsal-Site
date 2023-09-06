@@ -1,0 +1,34 @@
+﻿@model IEnumerable<webson.Models.Hizmet>
+@{
+    ViewBag.Title = "Hizmetler";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Hizmetler</h2>
+
+<table class="table table-striped text-center">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Başlık</th>
+            <th scope="col">Açıklama</th>
+            <th scope="col">Resim</th>
+            <th scope="col">İşlemler</th>
+            <th><a class="btn btn-success" href="/Hizmet/Create">Ekle</a></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@item.HizmetId</th>
+                <td>@item.Baslik</td>
+                <td>@Html.Raw(item.Aciklama)</td>
+                <td><img src="@item.ResimURL" width="100" height="100" /></td>
+                <td><a href="/Hizmet/Edit/@item.HizmetId" class="btn btn-warning">Güncelle</a> | <a href="/Hizmet/Delete/@item.HizmetId" class="btn btn-danger">Sil</a></td>
+            </tr>
+
+        }
+
+    </tbody>
+</table>

@@ -1,0 +1,35 @@
+﻿@model webson.Models.Hizmet
+@{
+    ViewBag.Title = "Hizmet Düzenle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Hizmet Düzenle</h2>
+
+<form class="row g-3" action="/Hizmet/Edit/@Model.HizmetId" method="post" enctype="multipart/form-data">
+    <div class="col-12">
+        <label for="inputNanme4" class="form-label">Başlık</label>
+        <input type="text" value="@Model.Baslik" class="form-control" id="Baslik" name="Baslik" required>
+    </div>
+    <div class="col-12">
+        <label for="inputEmail4" class="form-label">Açıklama</label>
+        <textarea name="Aciklama" class="ckeditor" required>
+           @Model.Aciklama
+        </textarea>
+    </div>
+    <div class="col-12">
+        <label for="inputPassword4" class="form-label">Önceki Resim</label> <br />
+        <img src="@Model.ResimURL" height="200" width="200" />
+    </div>
+    <div class="col-12">
+        <label for="inputPassword4" class="form-label">Resim</label>
+        <input type="file" class="form-control" id="ResimURL" name="ResimURL" accept=".png,.jpg,.jpeg">
+    </div>
+    <div class="text-center">
+        <button type="submit" class="btn btn-primary">Güncelle</button>
+
+    </div>
+</form>
+<div class="text-center mt-3">
+    <a href="/Hizmet"> <button class="btn btn-secondary">Geri Dön</button></a>
+</div>
